@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Weather</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    </head>
+    <body>
+       <div class="card">
+            <div class="search">
+                <input type="text" placeholder="Enter your city" spellcheck="false">
+                <button><img src="images/lupa.png" alt=""></button>
+            </div>
+            <div class="weather">
+                <img src="images/rain.png" class="weather-icon "alt="">
+                <h1 class="temp">22°</h1>
+                <h2 class="city">Bridgewater</h2>
+                <div class="details">
+                    <div class="col">
+                        <img src="images/humidity.png" alt="">
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                    <div class="col">
+                        <img src="images/wind.png" alt="">
+                        <p class="wind">15km/h</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+       </div>
+        <script src="script.js"></script>
+    </body>
+</html>

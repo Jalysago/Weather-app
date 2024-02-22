@@ -1,0 +1,114 @@
+/*general styling*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+/*Background styling*/
+body{
+    
+    background: linear-gradient(180deg, #766DC1, #9F81CD, #EBB2D6, #FBD1D3, #F3A281);
+    background-attachment: fixed;
+}
+
+/*weather app styling*/
+.card {
+    width: 90%;
+    max-width: 470px;
+    color: #fff;
+    margin:100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.2px);
+    -webkit-backdrop-filter: blur(4.2px);
+    border: 1px solid rgba(255, 255, 255, 0.34);
+}
+
+.search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input{
+    border: 0;
+    outline: 0;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+    background: rgba(255, 255, 255, 0.64);
+    backdrop-filter: blur(4.2px);
+    -webkit-backdrop-filter: blur(4.2px); 
+}
+
+.search button{
+    border: 0;
+    outline: 0;
+    background: rgba(255,255,255,0.64);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.search button img{
+    width: 20px;
+    rotate: -90deg;
+    opacity: 0.6;
+}
+
+.weather-icon{
+    width: 170px;
+    margin-top: 30px;
+}
+
+.weather h1{
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.weather h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.col{
+    
+    align-items: center;
+    text-align: center;
+}
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+
+.humidity, .wind{
+    font-size: 28px;
+    margin-top: -6;
+}
+
+/*load page styling(this will hide all the weather information until the user enters a city)*/
+.weather {
+    display: none;
+}
