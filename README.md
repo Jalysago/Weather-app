@@ -1,3 +1,14 @@
+#Weather Forecasting Web App - React & Styled Components
+
+This project is a dynamic weather forecasting web application built with React, featuring real-time weather data, location-based searches, and a user-friendly interface. Key functionalities include:
+
+Live Weather Updates: Provides current weather details for any location with options for hourly and daily forecasts.
+Interactive UI: Features components such as top buttons, inputs for location and unit selection, and detailed displays for time, location, temperature, and weather conditions.
+Responsive Design: Styled with CSS and gradients that adapt to the weather conditions, offering a visually appealing user experience.
+Notifications: Integrated with React Toastify for seamless, real-time user feedback.
+Data Integration: Utilizes a weather service API to fetch and display formatted weather data efficiently.
+This app demonstrates the integration of React components, state management with hooks, API calls, and responsive design principles
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
